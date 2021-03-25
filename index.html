@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- no se si poner este meta tag o no? --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="GeeksHubs, website personal, HTML, CSS3, Layout, Git">
+    <meta name="author" content="Vedrana Hasanbasic">
+    <meta name="description" content="first challenge in GeeksHubs Academy">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap"
+      rel="stylesheet"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    <title> Portfolio website | Vedrana Hasanbasic </title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="/contact_form.html">Contact me!</a></li>
+    </ul>
+  </nav>
+  <!-------------------- header --------------------------->
+  <header class="background-header">
+    <div class="wrapper center">
+      <img class="header-logo center" src="img/logo_vh3.png" alt="my concious logo" />
+      <h1>Vedrana Hasanbasic</h1>
+      <p class="lead center max-line-length">
+        {currently living in Barcelona and coding in} <strong> GeeksHubs Academy Bootcamp Frontend - REACT </strong> 
+      </p>
+    </div>
+    <img class="castellers" src="img/una-19.png" alt="castellers graphic" />
+  </header>
+<!------------------- about ------------------------------->
+  <main>
+    <section id="about" class="wrapper center margin-v-lg padding-v-lg">
+      <h2 class="text-h2h3">About me</h2>
+        <div class="main__content">
+          <div class="main__text">
+            <h3 class="max-line-length">
+              Hi, I'm Vedrana! |  Hola, soy Vedrana!</h3>
+            <p><strong>
+              I'm a self-motivated team player with a profesional background in food biotechnology and with over 15+ years of working experience in public administration. </strong></p>
+              <p>In the summer 2019 I started my studies at the IT Academy of Barcelona Activa as a <strong>junior frontend developer</strong> with ANGULAR that lasted until november 2020. I continue to study and practice at the GeeksHubs Academy Bootcamp Frontend - REACT while looking for an opportunity to join a challenging work environment to take advantage of my fresh frontend skills...</p>
+            </p>
+          </div>
+          <div class="main__image">
+            <img src="img/ja.jpg" alt="face" class="main__img" />
+          </div>
+        </div> 
+    </section>
+  <!---------------- projects -------------------------------->
+    <section id="projects" class="padding-v-lg">
+      <div class="wrapper center">
+        <h2 class="text-h2h3">My IT Academy's Projects</h2>
+        <ul role="list" class="list-unstyled flexbox flexbox--3col">
+          <li class="card">
+            <div id="car" class="card__img"></div>
+            <div class="card__content">
+              <h3 class="text-h2h3"> <span>Vehicles</span></h3>
+              <p>
+                Object-oriented programming / HTML / CSS / Typescript /
+              </p>
+              <a href="https://github.com/vedranaha/Typescript-vehicles" target="_blank" class="button">See me</a>
+            </div>
+          </li>
+          <li class="card">
+            <div id="rocket" class="card__img"></div>
+            <div class="card__content">
+              <h3 class="text-h2h3"><span> Rockets</span></h3>
+              <p>
+                MVC architecture / HTML / CSS / Typescript / JS /
+              </p>
+              <a href="https://github.com/vedranaha/typescript-rockets-fase-3" target="_blank" class="button">See me</a>
+            </div>
+          </li>
+          <li class="card">
+            <div id="stripes" class="card__img"></div>
+            <div class="card__content">
+              <h3 class="text-h2h3"><span>Stripes</span></h3>
+              <p>
+                HTML / CSS / CSS animations / JS / SASS /
+              </p>
+              <a href="https://github.com/vedranaha/SASS-stripes" target="_blank" class="button">See me</a>
+            </div>
+          </li>
+          <li class="card">
+            <div id="jokes" class="card__img"></div>
+            <div class="card__content">
+              <h3 class="text-h2h3"><span>Jokes</span></h3>
+              <p>
+                Making a call to a Rest API using Jquery Ajax
+              </p>
+              <a href="https://github.com/vedranaha/AJAX-REST-API" target="_blank" class="button">See me</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!--------------- footer -------------------------------->
+  <div class="background-header padding-v-md">
+    <footer class="wrapper center flexbox flexbox--aligncenter">
+      <img src="img/logo_vh3.png" alt="my concious" />
+      <p class="margin-v-0">&copy; 2021 Vedrana Hasanbasic | Frontend developer</p>
+        <p><a href="https://www.linkedin.com/in/vedranahasanbasic/" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
+    </footer>
+  </div>
+</body>
+</html>
