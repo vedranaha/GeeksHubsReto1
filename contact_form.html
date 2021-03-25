@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- no se si poner este meta tag o no? --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="GeeksHubs, website personal, HTML, CSS3, Layout, Git">
+    <meta name="author" content="Vedrana Hasanbasic">
+    <meta name="description" content="first challenge personal in Geekshubs Academy">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap"
+     rel="stylesheet"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    <title> Contact form | Vedrana Hasanbasic</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/#about">About me</a></li>
+      <li><a href="/#projects">Projects</a></li>
+      <li><a>Contact me!</a></li>
+    </ul>
+  </nav>
+  <!-------------------- header --------------------------->
+  <header class="background-header">
+    <div class="wrapper center">
+      <img class="header-logo center" src="img/logo_vh3.png" alt="my concious logo" />
+      <h1>Vedrana Hasanbasic</h1>
+      <p class="lead center max-line-length">
+        Send me a message! </strong> 
+      </p>
+    </div>
+    <img class="castellers" src="img/una-19.png" alt="castellers graphic" />
+  </header>
+<!------------------- about ------------------------------->
+  <main>
+    <form class="center margin-v-lg padding-v-lg">
+      <div class="form-field">
+        <label for ="first_name">First name:</label>
+        <input type="text" name="first_name" id="first_name">
+      </div>
+      <div class="form-field">
+        <label for="last_name">Last Name:</label>
+        <input class="form-input" type="text" name="last_name" id="last_name"/>
+      </div>
+      <div class="form-field">
+        <label for="email">Email:</label>
+        <input class="form-input" type="email" name="email" id="email" />
+      </div>
+      <div class="form-field">
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" placeholder="Write something.."></textarea>
+      </div>
+      <div class="form-field">
+        <button type="submit" class="button">Send</button>
+      </div>
+    </form>
+  </main>
+  <!--------------- footer -------------------------------->
+  <div class="background-header padding-v-md">
+    <footer class="wrapper center flexbox flexbox--aligncenter">
+      <img src="img/logo_vh3.png" alt="my concious" />
+      <p class="margin-v-0">&copy; 2021 Vedrana Hasanbasic | Frontend developer</p>
+      <a href="https://www.linkedin.com/in/vedranahasanbasic/" title="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    </footer>
+  </div>
+</body>
+</html>
