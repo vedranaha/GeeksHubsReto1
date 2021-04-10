@@ -201,19 +201,19 @@ nav ul li + li {
 }
 
 #car {
-  background-image: url('/img/car-icon.png');
+  background-image: url('../img/car-icon.png');
 }
 
 #rocket {
-  background-image: url('/img/Rocket.jpg');
+  background-image: url('../img/Rocket.jpg');
 }
 
 #stripes{
-  background-image: url('/img/stripes-black.jpg');
+  background-image: url('../img/stripes-black.jpg');
 }
 
 #jokes{
-  background-image: url('/img/smile-icon.png');
+  background-image: url('../img/smile-icon.png');
 }
 
 .card__img {
